@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js add -D nodemon
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/gabriels/Documents/Traversy Media/APEX-TRACKER/node_modules/abbrev'
+
+npm manifest: 
+  {
+    "name": "apex-tracker",
+    "version": "1.0.0",
+    "description": "Track stats fro Apex Legends",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Gabriel Santiago",
+    "license": "ISC",
+    "dependencies": {
+      "concurrently": "^4.1.1",
+      "dotenv": "^8.0.0",
+      "express": "^4.17.1",
+      "morgan": "^1.9.1",
+      "node-fetch": "^2.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
